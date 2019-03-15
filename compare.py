@@ -8,7 +8,7 @@ path_false = "../v1/outputs_v1"
 files_true = os.listdir(path_true)
 files_false = os.listdir(path_false)
 
-save_name = "s"+str(counter+1)
+save_name = "s"
 file_save = open("../v1/"+save_name, "w")
 
 while counter < 2710:
