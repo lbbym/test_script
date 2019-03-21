@@ -14,7 +14,7 @@ while counter < 2710:
     cov_file = open(cov_path+"/"+file_name, "r")
 
     # read the file
-    cov_read = str(cov_file.readlines())
+    cov_read = cov_file.readlines()
     str_counter = ""
     for line in cov_read:
         for character in line:
