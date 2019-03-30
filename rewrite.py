@@ -1,25 +1,6 @@
 # open the shell script
 shfile = open("runall.sh", "r+")
 
-"""
-a = shfile.readline()
-shfile.write(a)
-a = shfile.readline()
-shfile.write(a)
-
-counter = 0;
-while counter < 2710:
-    a = shfile.readline()
-    shfile.write(a)
-    a = shfile.readline()
-    shfile.write(a)
-    shfile.write("gcov schedule2.c\n" + "mv schedule2.c.gcov ./v1gcov" + str(counter) + "\n")
-
-    #"gcov schedule2.c\n"
-    #"mv schedule2.c.gcov ./v1gcov" + str(counter) + "\n"
-
-    counter += 1
-"""
 data = ''
 counter = 0
 for line in shfile.readlines():
